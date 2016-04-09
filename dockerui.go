@@ -18,7 +18,7 @@ import (
 
 var (
 	endpoint = flag.String("e", "/var/run/docker.sock", "Dockerd endpoint")
-	addr     = flag.String("p", ":9000", "Address and port to serve dockerui")
+	addr     = flag.String("p", ":5000", "Address and port to serve dockerui")
 	assets   = flag.String("a", ".", "Path to the assets")
 	authKey  []byte
 	authKeyFile = "authKey.dat"
